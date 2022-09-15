@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(82, 144, 198);
+}
+
+header{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+     align-content: center;
+
+}
+main h2{
+    text-align: center;
+    color: black;
+    margin: 1rem;
+}
+
+main h2 span{
+    display: block;
+}
+main p{
+    text-align: center;
+}
+main .boton{
+    background-color: #51B0DF;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 2px black;
+    color: aliceblue;
+    font-weight: bold;
+    
+
+    
+    
+}
+
+
+section{
+    display: none;
+
+}
+
+footer h4{
+    text-align: center;
+}
+
+@media screen and (min-width:600px){
+    header{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+    heder nav ul{
+        display: flex;
+
+    }
+
+}
+
+    
+
+    
+
+
+
+
+
+
+
